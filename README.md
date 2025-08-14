@@ -4,7 +4,7 @@ A simple Python script that periodically frees up RAM using **RAMMap** and sends
 
 ## Features
 
-- Clears RAM every 10 minutes (configurable).
+- Clears RAM every 10 minutes.
 - Sends desktop notifications when RAM is cleared.
 - Handles missing RAMMap or insufficient permissions gracefully with error popups.
 
