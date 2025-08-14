@@ -1,6 +1,6 @@
 # RAM Cleaner Script
 
-A simple Python script that periodically frees up RAM using **RAMMap** and sends desktop notifications. Useful for systems with limited memory or high RAM usage.
+A simple Python script, executable that periodically frees up RAM using **RAMMap** and sends desktop notifications. Useful for systems with limited memory or high RAM usage.
 
 ## Features
 
