@@ -28,6 +28,7 @@ To verify:
   - `subprocess` (to actually run the rammap file)
   - `ctypes` (for error pop ups)
   - `sys` (For application exit)
+  - `webbrowser` (To open a website to download RamMap)
 
 Install dependencies via pip:
 for linux:
