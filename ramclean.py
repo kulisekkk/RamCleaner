@@ -34,7 +34,7 @@ while True:
     except OSError:
         ctypes.windll.user32.MessageBoxW(
             0,
-            "You need to run this EXE as admin! Exiting in 10 seconds.",
+            "You need to run this EXE with administrator privileges, rammap wont work without them. Exiting in 10 seconds.",
             "Error!",
             0x10
         )
