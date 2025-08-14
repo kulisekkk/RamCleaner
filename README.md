@@ -10,7 +10,7 @@ A simple Python script that periodically frees up RAM using **RAMMap** and sends
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.0+ at least
 - [RAMMap](https://docs.microsoft.com/en-us/sysinternals/downloads/rammap) (must be in the same folder as the script)
 - Python packages:
   - `plyer` (for notifications)
