@@ -16,6 +16,10 @@ A simple Python script that periodically frees up RAM using **RAMMap** and sends
   - `plyer` (for notifications)
 
 Install dependencies via pip:
-
+for linux:
 ```bash
-pip install plyer
+pip install -r requirements.txt
+```
+for windows: do py or python3 depends on your installation
+```batch
+py -m pip install -r requirements.txt
