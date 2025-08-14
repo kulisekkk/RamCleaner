@@ -14,12 +14,17 @@ A simple Python script that periodically frees up RAM using **RAMMap** and sends
 - [RAMMap](https://docs.microsoft.com/en-us/sysinternals/downloads/rammap) (must be in the same folder as the script)
 - Python packages:
   - `plyer` (for notifications)
+  - `time` (for pauses between cleans)
+  - `subprocess` (to actually run the rammap file)
+  - `ctypes` (for error pop ups)
+  - `sys` (For application exit)
 
 Install dependencies via pip:
 for linux:
 ```bash
 pip install -r requirements.txt
 ```
-for windows: do py or python3 depends on your installation
+for windows:
 ```batch
-py -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
+```
