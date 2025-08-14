@@ -8,6 +8,16 @@ A simple Python script that periodically frees up RAM using **RAMMap** and sends
 - Sends desktop notifications when RAM is cleared.
 - Handles missing RAMMap or insufficient permissions gracefully with error popups.
 
+## SHA256 (for advanced users)
+the built version's SHA256 is as follows:
+d942c2ffacf2e1acfdc643b758bc5fb3d201617b4ca6c91aee7a67ece0eedbb4
+
+To verify:
+1. Open PowerShell or Command Prompt.
+2. Run:
+   ```powershell
+   Get-FileHash "path\to\ram_cleaner.exe" -Algorithm SHA256
+
 ## Requirements
 
 - Python 3.0+ at least
@@ -28,3 +38,4 @@ for windows:
 ```batch
 python3 -m pip install -r requirements.txt
 ```
+
