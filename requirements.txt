@@ -4,3 +4,4 @@ plyer
 ctypes
 sys
 keyboard
+webbrowser
