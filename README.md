@@ -18,9 +18,9 @@ d942c2ffacf2e1acfdc643b758bc5fb3d201617b4ca6c91aee7a67ece0eedbb4
 To verify:  
 1. Open PowerShell or Command Prompt.  
 2. Run:  
-powershell
+```powershell
 Get-FileHash "path\to\ram_cleaner.exe" -Algorithm SHA256
-
+```
 ## Requirements
 
 - **Python 3.0+**  
@@ -36,9 +36,10 @@ Get-FileHash "path\to\ram_cleaner.exe" -Algorithm SHA256
 ### Install Dependencies
 
 For Linux:
-bash
+```bash
 python3 -m pip install -r requirements.txt
-
+```
 For Windows:
-batch
+```batch
 python3 -m pip install -r requirements.txt
+```
