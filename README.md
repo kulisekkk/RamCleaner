@@ -2,8 +2,7 @@
 
 A simple Python script (also available as an executable) that periodically frees up RAM using **RAMMap** and sends desktop notifications. Useful for systems with limited memory or high RAM usage.  
 
-**Note for normal users:** If you just want to free up RAM, download the pre-built EXE from the Releases section (cleaner.zip) and run it — no Python needed!
-
+**Quick Start for regular users:** download the pre-built executable from the [**Releases**](https://github.com/kulisekkk/RamCleaner/releases/tag/Cleaner) section (cleaner.zip) and run it — no Python setup needed!
 
 ## Features
 - Clears RAM every 15 minutes.  
