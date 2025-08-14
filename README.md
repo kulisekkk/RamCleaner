@@ -22,7 +22,7 @@ A simple Python script that periodically frees up RAM using **RAMMap** and sends
 Install dependencies via pip:
 for linux:
 ```bash
-pip install -r requirements.txt
+python3 pip install -r requirements.txt
 ```
 for windows:
 ```batch
